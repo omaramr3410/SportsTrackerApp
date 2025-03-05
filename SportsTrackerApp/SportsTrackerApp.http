@@ -1,0 +1,6 @@
+@SportsTrackerApp_HostAddress = http://localhost:5261
+
+GET {{SportsTrackerApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
