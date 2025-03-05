@@ -1,0 +1,6 @@
+C:\Users\sonic\Documents\Repos\SportsTrackerApp\SportsTracker\bin\Debug\SportsTracker.dacpac
+C:\Users\sonic\Documents\Repos\SportsTrackerApp\SportsTracker\bin\Debug\SportsTracker.dll
+C:\Users\sonic\Documents\Repos\SportsTrackerApp\SportsTracker\bin\Debug\SportsTracker.pdb
+C:\Users\sonic\Documents\Repos\SportsTrackerApp\SportsTracker\obj\Debug\SportsTracker.sqlproj.AssemblyReference.cache
+C:\Users\sonic\Documents\Repos\SportsTrackerApp\SportsTracker\obj\Debug\SportsTracker.dll
+C:\Users\sonic\Documents\Repos\SportsTrackerApp\SportsTracker\obj\Debug\SportsTracker.pdb
