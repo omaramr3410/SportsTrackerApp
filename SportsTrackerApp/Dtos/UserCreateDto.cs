@@ -5,11 +5,11 @@
         /// <summary>
         /// Defines the user's name
         /// </summary>
-        public required string UserName;
+        public required string UserName { get; set; }
 
         /// <summary>
         /// Defines the user's password
         /// </summary>
-        public required string Password;
+        public required string Password { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using Mapster;
 using Microsoft.AspNetCore.Mvc;
-using SportsTrackerApp.Dto;
+using SportsTrackerApp.Dtos;
 using SportsTrackerApp.Orchestrators;
 
 namespace SportsTrackerApp.Controllers;
