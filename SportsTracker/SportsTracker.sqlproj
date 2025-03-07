@@ -59,6 +59,7 @@
     <Folder Include="Tables" />
     <Folder Include="StoredProcedures" />
     <Folder Include="Types" />
+    <Folder Include="Tables\Identity" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Configuration" />
@@ -71,6 +72,17 @@
     <Build Include="Tables\Team.sql" />
     <Build Include="Types\GenericIntType.sql" />
     <Build Include="StoredProcedures\GetTeamsById.sql" />
+    <Build Include="Tables\Identity\AspNetUsers.sql" />
+    <Build Include="Tables\Identity\AspNetRoles.sql" />
+    <Build Include="Tables\Identity\AspNetUserRoles.sql" />
+    <Build Include="Tables\Identity\AspNetUserClaims.sql" />
+    <Build Include="Tables\Identity\AspNetRoleClaims.sql" />
+    <Build Include="Tables\Identity\AspNetUserLogins.sql" />
+    <Build Include="Tables\Identity\AspNetUserTokens.sql" />
+    <Build Include="StoredProcedures\GetTeamsByUser.sql" />
+    <Build Include="Tables\TeamMember.sql" />
+    <Build Include="Tables\Location.sql" />
+    <Build Include="Tables\Match.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="local.publish.xml" />

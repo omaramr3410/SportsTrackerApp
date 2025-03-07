@@ -1,29 +1,43 @@
-using static SportsTrackerApp.ServiceCollectionExtensions;
+using SportsTrackerApp.Models;
 
-var builder = WebApplication.CreateBuilder(args);
-
-//Setup application build
-builder.Services.SetupAppBuild();
-
-var app = builder.Build();
-
-app.UseCookiePolicy(new CookiePolicyOptions
+namespace SportsTrackerApp;
+public class Program
 {
-    MinimumSameSitePolicy = SameSiteMode.Strict
-});
+    public static void Main(string[] args)
+    {
+        var builder = WebApplication.CreateBuilder(args);
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
+        //Setup application build
+        builder.Services.SetupAppBuild(builder.Configuration);
+
+        var app = builder.Build();
+
+        app.UseCookiePolicy(new CookiePolicyOptions
+        {
+            MinimumSameSitePolicy = SameSiteMode.Strict
+        });
+
+        // Configure the HTTP request pipeline.
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseSwagger();
+            app.UseSwaggerUI();
+        }
+
+        app.UseExceptionHandler("/Error");
+
+        app.UseHttpsRedirection();
+
+        app.UseAuthentication();
+        app.UseAuthorization();
+
+        app.MapControllers();
+
+        app.MapIdentityApi<UserModel>();
+
+        app.Run();
+    }    
 }
 
-app.UseHttpsRedirection();
 
-app.UseAuthentication();
-app.UseAuthorization();
 
-app.MapControllers();
-
-app.Run();

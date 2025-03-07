@@ -3,48 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\orchestrators\\teamorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\orchestrators\\teamorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\constants\\databasetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\constants\\databasetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\context\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\context\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\controllers\\teamroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\controllers\\teamroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\dtos\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\dtos\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\context\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\context\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\controllers\\user\\userroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\controllers\\user\\userroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,16 +27,64 @@
       "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\repository\\teamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\repository\\teamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\controllers\\user\\userroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\controllers\\user\\userroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\models\\teammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\models\\teammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223CEAD6-41B5-4FDC-BDB4-92B372CC1EE7}|SportsTracker\\SportsTracker.sqlproj|C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTracker\\StoredProcedures\\GetTeamsById.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{223CEAD6-41B5-4FDC-BDB4-92B372CC1EE7}|SportsTracker\\SportsTracker.sqlproj|solutionrelative:SportsTracker\\StoredProcedures\\GetTeamsById.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\constants\\databasetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\constants\\databasetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\controllers\\teamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\dtos\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\dtos\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\dtos\\teamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\dtos\\teamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\orchestrators\\teamorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\orchestrators\\teamorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\models\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\models\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\entities\\teamentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\entities\\teamentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{223CEAD6-41B5-4FDC-BDB4-92B372CC1EE7}|SportsTracker\\SportsTracker.sqlproj|C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTracker\\StoredProcedures\\GetTeamsById.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{223CEAD6-41B5-4FDC-BDB4-92B372CC1EE7}|SportsTracker\\SportsTracker.sqlproj|solutionrelative:SportsTracker\\StoredProcedures\\GetTeamsById.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\controllers\\teamroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\controllers\\teamroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|c:\\users\\sonic\\documents\\repos\\sportstrackerapp\\sportstrackerapp\\repository\\teamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{602130CF-0A09-469D-ACDD-1E7E5879DA98}|SportsTrackerApp\\SportsTrackerApp.csproj|solutionrelative:sportstrackerapp\\repository\\teamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{223CEAD6-41B5-4FDC-BDB4-92B372CC1EE7}|SportsTracker\\SportsTracker.sqlproj|C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTracker\\StoredProcedures\\GetTeamsById.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{223CEAD6-41B5-4FDC-BDB4-92B372CC1EE7}|SportsTracker\\SportsTracker.sqlproj|solutionrelative:SportsTracker\\StoredProcedures\\GetTeamsById.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,40 +94,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 13,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Context\\DataContext.cs",
+              "RelativeDocumentMoniker": "SportsTrackerApp\\Context\\DataContext.cs",
+              "ToolTip": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Context\\DataContext.cs",
+              "RelativeToolTip": "SportsTrackerApp\\Context\\DataContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwAcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T19:51:20.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Models\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "SportsTrackerApp\\Models\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Models\\WeatherForecast.cs",
+              "RelativeToolTip": "SportsTrackerApp\\Models\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:05:34.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TeamModel.cs",
+              "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Models\\TeamModel.cs",
+              "RelativeDocumentMoniker": "SportsTrackerApp\\Models\\TeamModel.cs",
+              "ToolTip": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Models\\TeamModel.cs",
+              "RelativeToolTip": "SportsTrackerApp\\Models\\TeamModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:05:24.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TeamDto.cs",
+              "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Dtos\\TeamDto.cs",
+              "RelativeDocumentMoniker": "SportsTrackerApp\\Dtos\\TeamDto.cs",
+              "ToolTip": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Dtos\\TeamDto.cs",
+              "RelativeToolTip": "SportsTrackerApp\\Dtos\\TeamDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:04:22.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "TeamOrchestrator.cs",
               "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Orchestrators\\TeamOrchestrator.cs",
               "RelativeDocumentMoniker": "SportsTrackerApp\\Orchestrators\\TeamOrchestrator.cs",
               "ToolTip": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Orchestrators\\TeamOrchestrator.cs",
               "RelativeToolTip": "SportsTrackerApp\\Orchestrators\\TeamOrchestrator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T18:48:22.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "TeamEntity.cs",
               "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Entities\\TeamEntity.cs",
               "RelativeDocumentMoniker": "SportsTrackerApp\\Entities\\TeamEntity.cs",
               "ToolTip": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Entities\\TeamEntity.cs",
               "RelativeToolTip": "SportsTrackerApp\\Entities\\TeamEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T18:47:44.031Z"
+              "WhenOpened": "2025-03-05T18:47:44.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "TeamRepository.cs",
               "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Repository\\TeamRepository.cs",
               "RelativeDocumentMoniker": "SportsTrackerApp\\Repository\\TeamRepository.cs",
@@ -115,35 +192,38 @@
               "RelativeToolTip": "SportsTrackerApp\\Repository\\TeamRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T17:09:10.457Z"
+              "WhenOpened": "2025-03-05T17:09:10.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Controllers\\User\\UserController.cs",
               "RelativeDocumentMoniker": "SportsTrackerApp\\Controllers\\User\\UserController.cs",
               "ToolTip": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Controllers\\User\\UserController.cs",
               "RelativeToolTip": "SportsTrackerApp\\Controllers\\User\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAwDUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T16:45:24.429Z"
+              "WhenOpened": "2025-03-05T16:45:24.429Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Models\\UserModel.cs",
               "RelativeDocumentMoniker": "SportsTrackerApp\\Models\\UserModel.cs",
               "ToolTip": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Models\\UserModel.cs",
               "RelativeToolTip": "SportsTrackerApp\\Models\\UserModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T16:48:46.286Z"
+              "WhenOpened": "2025-03-05T16:48:46.286Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "UserLoginDto.cs",
               "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Dtos\\UserLoginDto.cs",
               "RelativeDocumentMoniker": "SportsTrackerApp\\Dtos\\UserLoginDto.cs",
@@ -151,82 +231,77 @@
               "RelativeToolTip": "SportsTrackerApp\\Dtos\\UserLoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T17:27:46.737Z"
+              "WhenOpened": "2025-03-05T17:27:46.737Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "UserRoutes.cs",
               "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Controllers\\User\\UserRoutes.cs",
               "RelativeDocumentMoniker": "SportsTrackerApp\\Controllers\\User\\UserRoutes.cs",
               "ToolTip": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Controllers\\User\\UserRoutes.cs",
               "RelativeToolTip": "SportsTrackerApp\\Controllers\\User\\UserRoutes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T16:46:23.896Z"
+              "WhenOpened": "2025-03-05T16:46:23.896Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "ServiceCollectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\ServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "SportsTrackerApp\\ServiceCollectionExtensions.cs",
               "ToolTip": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\ServiceCollectionExtensions.cs",
               "RelativeToolTip": "SportsTrackerApp\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwAYAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwDsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T16:02:07.667Z"
+              "WhenOpened": "2025-03-05T16:02:07.667Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "TeamController.cs",
               "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Controllers\\TeamController.cs",
               "RelativeDocumentMoniker": "SportsTrackerApp\\Controllers\\TeamController.cs",
               "ToolTip": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Controllers\\TeamController.cs",
               "RelativeToolTip": "SportsTrackerApp\\Controllers\\TeamController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T15:48:49.171Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GetTeamsById.sql",
-              "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTracker\\StoredProcedures\\GetTeamsById.sql",
-              "RelativeDocumentMoniker": "SportsTracker\\StoredProcedures\\GetTeamsById.sql",
-              "ToolTip": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTracker\\StoredProcedures\\GetTeamsById.sql\r\n(localdb)\\ProjectModels.SportsTracker\r\n(DESKTOP-NVME\\sonic)",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-05T18:37:51.137Z",
+              "WhenOpened": "2025-03-05T15:48:49.171Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Program.cs",
               "RelativeDocumentMoniker": "SportsTrackerApp\\Program.cs",
               "ToolTip": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Program.cs",
               "RelativeToolTip": "SportsTrackerApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T17:30:37.851Z"
+              "WhenOpened": "2025-03-04T17:30:37.851Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "UserCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Dtos\\UserCreateDto.cs",
               "RelativeDocumentMoniker": "SportsTrackerApp\\Dtos\\UserCreateDto.cs",
               "ToolTip": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Dtos\\UserCreateDto.cs",
               "RelativeToolTip": "SportsTrackerApp\\Dtos\\UserCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T17:24:58.404Z"
+              "WhenOpened": "2025-03-05T17:24:58.404Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "SportsTrackerApp\\Controllers\\WeatherForecastController.cs",
@@ -234,11 +309,12 @@
               "RelativeToolTip": "SportsTrackerApp\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T17:30:56.026Z"
+              "WhenOpened": "2025-03-04T17:30:56.026Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "TeamRoutes.cs",
               "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Controllers\\TeamRoutes.cs",
               "RelativeDocumentMoniker": "SportsTrackerApp\\Controllers\\TeamRoutes.cs",
@@ -246,11 +322,12 @@
               "RelativeToolTip": "SportsTrackerApp\\Controllers\\TeamRoutes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T15:48:24.653Z"
+              "WhenOpened": "2025-03-05T15:48:24.653Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "DatabaseTypes.cs",
               "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Constants\\DatabaseTypes.cs",
               "RelativeDocumentMoniker": "SportsTrackerApp\\Constants\\DatabaseTypes.cs",
@@ -263,19 +340,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "DapperContext.cs",
               "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Context\\DapperContext.cs",
               "RelativeDocumentMoniker": "SportsTrackerApp\\Context\\DapperContext.cs",
               "ToolTip": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTrackerApp\\Context\\DapperContext.cs",
               "RelativeToolTip": "SportsTrackerApp\\Context\\DapperContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T15:44:06.141Z"
+              "WhenOpened": "2025-03-05T15:44:06.141Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetTeamsById.sql ",
+              "DocumentMoniker": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTracker\\StoredProcedures\\GetTeamsById.sql",
+              "RelativeDocumentMoniker": "SportsTracker\\StoredProcedures\\GetTeamsById.sql",
+              "ToolTip": "C:\\Users\\sonic\\Documents\\Repos\\SportsTrackerApp\\SportsTracker\\StoredProcedures\\GetTeamsById.sql\r\n(localdb)\\ProjectModels.SportsTracker\r\n(DESKTOP-NVME\\sonic)",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-05T18:37:51.137Z",
+              "EditorCaption": ""
             }
           ]
         }

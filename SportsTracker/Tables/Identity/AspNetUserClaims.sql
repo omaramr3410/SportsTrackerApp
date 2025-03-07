@@ -1,0 +1,7 @@
+﻿CREATE TABLE AspNetUserClaims (
+    Id INT IDENTITY PRIMARY KEY,
+    UserId NVARCHAR(450) NOT NULL,
+    ClaimType NVARCHAR(MAX),
+    ClaimValue NVARCHAR(MAX),
+    FOREIGN KEY (UserId) REFERENCES AspNetUsers(Id) ON DELETE CASCADE
+);

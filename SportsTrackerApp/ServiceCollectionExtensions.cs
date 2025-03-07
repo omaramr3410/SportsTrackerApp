@@ -1,4 +1,7 @@
-﻿using SportsTrackerApp.Context;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using SportsTrackerApp.Context;
+using SportsTrackerApp.Models;
 using SportsTrackerApp.Orchestrators;
 using SportsTrackerApp.Repository;
 
@@ -10,7 +13,7 @@ namespace SportsTrackerApp
         /// Extension to run proper setup of Program build
         /// </summary>
         /// <param name="services">Service collection of Program</param>
-        public static void SetupAppBuild(this IServiceCollection services)
+        public static void SetupAppBuild(this IServiceCollection services, IConfiguration configuration)
         {
             // Add Controller Services to build
             services.AddControllers();
@@ -21,7 +24,17 @@ namespace SportsTrackerApp
 
             services.AddHttpContextAccessor();
 
+            services.AddDbContext<DataContext>(options =>
+            {
+                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
+            });
+
+            services.AddIdentityCore<UserModel>()
+                .AddEntityFrameworkStores<DataContext>()
+                .AddApiEndpoints();
+
             //services.AddIdentity<UserModel, IdentityRole>()
+            //    .AddEntityFrameworkStores<DataContext>()
             //    .AddDefaultTokenProviders();
 
             //services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -31,9 +44,17 @@ namespace SportsTrackerApp
             //        options.SlidingExpiration = true;
             //        options.AccessDeniedPath = "/Forbidden/";
             //    });
-            services
-                .AddAuthentication("cookie")
-                .AddCookie("cookie");
+            //services.AddAuthentication(options =>d
+            //{
+            //    options.DefaultAuthenticateScheme = IdentityConstants.ApplicationScheme;
+            //    options.DefaultSignInScheme = IdentityConstants.ApplicationScheme;
+            //    options.DefaultChallengeScheme = IdentityConstants.ApplicationScheme;
+            //})
+            //    .AddCookie(IdentityConstants.ApplicationScheme);
+            services.AddAuthentication(IdentityConstants.ApplicationScheme)
+                .AddCookie(IdentityConstants.ApplicationScheme);
+
+            services.AddAuthorization();
 
             //Add required services
             services.AddRequiredServices();

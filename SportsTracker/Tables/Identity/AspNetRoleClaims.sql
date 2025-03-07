@@ -1,0 +1,7 @@
+﻿CREATE TABLE AspNetRoleClaims (
+    Id INT IDENTITY PRIMARY KEY,
+    RoleId NVARCHAR(450) NOT NULL,
+    ClaimType NVARCHAR(MAX),
+    ClaimValue NVARCHAR(MAX),
+    FOREIGN KEY (RoleId) REFERENCES AspNetRoles(Id) ON DELETE CASCADE
+);

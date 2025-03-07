@@ -4,6 +4,8 @@
     {
         public const string baseRoute = "/user";
 
-        public const string login = $"{baseRoute}/login";
+        public const string login = $"/login2";
+
+        public const string logout = $"/logout2";
     }
 }

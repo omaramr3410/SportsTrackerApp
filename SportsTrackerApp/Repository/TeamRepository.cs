@@ -1,8 +1,7 @@
 ﻿using Dapper;
-using System.Data;
 using SportsTrackerApp.Entities;
 using SportsTrackerApp.Context;
-using SportsTrackerApp.Constants;
+using SportsTrackerApp.Helpers;
 
 namespace SportsTrackerApp.Repository
 {
@@ -13,33 +12,74 @@ namespace SportsTrackerApp.Repository
         /// </summary>
         /// <param name="teamIds">Collection of team ids</param>
         /// <returns>Collection of team entities connected to ids</returns>
-        Task<IEnumerable<TeamEntity>> GetTeamsAsync(int[] teamIds);
+        Task<IEnumerable<TeamEntity>> GetTeamsByIdAsync(int[] teamIds);
+
+        /// <summary>
+        /// Retrieve list of team entities by user name
+        /// </summary>
+        /// <param name="userName">User security context's name</param>
+        /// <returns>Colleciton of team entities connected to username</returns>
+        Task<IEnumerable<TeamEntity>> GetTeamsByUserAsync(string userName);
     }
 
     public class TeamRepository(
         IDapperContext context,
-        ILogger<TeamRepository> logger) : ITeamRepository
+        ILogger<ITeamRepository> logger) : ITeamRepository
     {
         private readonly IDapperContext context = context;
+        private readonly ILogger<ITeamRepository> logger = logger;
 
         /// <inheritdoc/>
-        public async Task<IEnumerable<TeamEntity>> GetTeamsAsync(int[] teamIds)
+        public async Task<IEnumerable<TeamEntity>> GetTeamsByIdAsync(int[] teamIds)
         {
-            var query = "EXECUTE dbo.[GetTeamsById] @TeamIds";
-            using var connection = context.CreateConnection();
+            try
+            {
+                var query = "EXECUTE dbo.[GetTeamsById] @teamIds";
+                using var connection = context.CreateConnection();
 
-            var teamIdTable = new DataTable();
-            teamIdTable.Columns.Add("ID", typeof(int));
+                var teams = await connection.QueryAsync<TeamEntity>(query, new
+                {
+                    teamIds = teamIds.AsTVP()
+                });
 
-            foreach (var id in teamIds) teamIdTable.Rows.Add(id);
+                return teams;
+            }
+            catch
+            {
+                this.logger.LogError("Error occured retrieving teams by ids", [new {
+                    method = nameof(GetTeamsByIdAsync),
+                    teamIds
+                }]);
 
-            var parameters = new DynamicParameters();
-            parameters.Add("@TeamIds", teamIdTable.AsTableValuedParameter(DatabaseTypes.tpGenericIntType));
+                throw;
+            }
+        }
 
+        /// <inheritdoc/>
+        public async Task<IEnumerable<TeamEntity>> GetTeamsByUserAsync(string userName)
+        {
+            try
+            {
+                var query = "EXECUTE dbo.[GetTeamsByUser] @userName";
+                using var connection = context.CreateConnection();
 
-            var teams = await connection.QueryAsync<TeamEntity>(query, parameters);
+                var teams = await connection.QueryAsync<TeamEntity>(query, new
+                {
+                    userName
+                });
 
-            return teams;
+                return teams;
+            }
+            catch
+            {
+                this.logger.LogError("Error occured retrieving teams by user name", [new
+                {
+                    method = nameof(GetTeamsByIdAsync),
+                    userName
+                }]);
+
+                throw;
+            }
         }
     }
 }

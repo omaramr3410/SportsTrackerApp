@@ -2,7 +2,7 @@
 
 public class TeamEntity
 {
-    public required string TeamId { get; init; }
+    public required string TeamID { get; init; }
 
     public required string TeamName { get; init; }
 }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SportsTrackerApp.Dtos;
 using SportsTrackerApp.Models;
@@ -8,19 +9,29 @@ namespace SportsTrackerApp.Controllers.User;
 
 public interface IUserController
 {
+    /// <summary>
+    /// Route to attempt a log in
+    /// </summary>
+    /// <param name="req">Login request body</param>
+    /// <returns>User</returns>
     Task<UserModel?> LoginAsync([FromBody] UserLoginDto req);
+    
+    /// <summary>
+    /// Route to attempt a user log out
+    /// </summary>
+    /// <returns>Action result during this operation</returns>
+    Task<IActionResult> LogoutAsync();
 }
 
 [ApiController]
 [Route(UserRoutes.baseRoute)]
 public class UserController(
-    IHttpContextAccessor ctx,
-    ILogger<UserController> logger) : ControllerBase, IUserController
+    ILogger<IUserController> logger) : ControllerBase, IUserController
 {
-    private readonly IHttpContextAccessor ctx = ctx;
-    private readonly ILogger<UserController> logger = logger;
+    private readonly ILogger<IUserController> logger = logger;
 
     [HttpPost(UserRoutes.login)]
+    //<inheritdoc/>
     public async Task<UserModel?> LoginAsync([FromBody] UserLoginDto req)
     {
         var claims = new List<Claim>
@@ -31,12 +42,34 @@ public class UserController(
         var identity = new ClaimsIdentity(claims, "cookie");
         var user = new ClaimsPrincipal(identity);
 
-        await ctx.HttpContext.SignInAsync("cookie", user);
+        await HttpContext.SignInAsync("cookie", user);
 
         return new UserModel
         {
             UserName = req.UserName,
             PasswordHash = req.Password
         };
+    }
+
+    [HttpGet(UserRoutes.logout)]
+    //<inheritdoc/>
+    [Authorize]
+    public async Task<IActionResult> LogoutAsync()
+    {
+        try
+        {
+            await HttpContext.SignOutAsync();
+
+            return Ok();
+        }
+        catch
+        {
+            this.logger.LogError("Error logging out user", new {
+                method = nameof(LogoutAsync),
+                HttpContext
+            });
+
+            return BadRequest();
+        }
     }
 }

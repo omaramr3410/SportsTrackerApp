@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SportsTrackerApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8e25543868add4c2cb7a5ba1c7f069a382b9a91")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+288998e28d277a323588474f7f87cd78cd6610e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("SportsTrackerApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SportsTrackerApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
